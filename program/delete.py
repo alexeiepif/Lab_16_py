@@ -1,7 +1,4 @@
-
-
-
-def del_items(type_param='even' ):
+def del_items(type_param='even'):
     """
     Выбирается тип элементов для удаления.
 
@@ -19,6 +16,5 @@ def del_items(type_param='even' ):
                 return list(filter(lambda x: x % 2 != 0, list_items))
             case _:
                 return list(filter(lambda x: x % 2 == 0, list_items))
-
 
     return delete
